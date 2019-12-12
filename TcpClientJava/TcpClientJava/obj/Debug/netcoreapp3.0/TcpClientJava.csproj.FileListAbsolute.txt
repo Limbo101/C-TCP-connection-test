@@ -1,0 +1,14 @@
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\obj\Debug\netcoreapp3.0\TcpClientJava.csprojAssemblyReference.cache
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\obj\Debug\netcoreapp3.0\TcpClientJava.AssemblyInfoInputs.cache
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\obj\Debug\netcoreapp3.0\TcpClientJava.AssemblyInfo.cs
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\TcpClientJava.exe
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\TcpClientJava.deps.json
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\TcpClientJava.runtimeconfig.json
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\TcpClientJava.runtimeconfig.dev.json
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\TcpClientJava.dll
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\TcpClientJava.pdb
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\obj\Debug\netcoreapp3.0\TcpClientJava.dll
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\obj\Debug\netcoreapp3.0\TcpClientJava.pdb
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\Json.Net.dll
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\obj\Debug\netcoreapp3.0\TcpClientJava.csproj.CopyComplete
+C:\Users\catal\source\repos\TcpClientJava\TcpClientJava\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
