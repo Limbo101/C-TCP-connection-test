@@ -45,28 +45,19 @@ namespace TcpClientJava
                 send = true;
                 if (send == true)
                 {
-
                     Package pack = new Package("ciulpk bybi", "salut");
                     Console.WriteLine(pack.operation);
                     //sending
                     Console.WriteLine("Sending date!");
-                    
                     string message = JsonConvert.SerializeObject(pack);
                     byte[] sendBytes = new byte[1024];
                     sendBytes = Encoding.UTF8.GetBytes(message + "\r\0") ; // this
                     stream.Write(sendBytes, 0, sendBytes.Length);
-
                     Console.WriteLine(message);
-
-
                     Console.WriteLine("Date has been sent!");
                     send = false;
-                    // stream.Close();
                 }
-                for(int i=0;i<5000;i++)
-                {
-                    Console.WriteLine("Yeet" + i);
-                }
+             
             }
 
 
