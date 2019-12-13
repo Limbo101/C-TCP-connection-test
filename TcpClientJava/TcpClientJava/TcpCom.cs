@@ -39,28 +39,33 @@ namespace TcpClientJava
         public void SendClient() {
 
             Boolean send = true;
-
+            NetworkStream stream = client.GetStream();
             while (true)
             {
-
+                send = true;
                 if (send == true)
                 {
 
-                    Package pack = new Package("ciulpk bybi", " salut");
+                    Package pack = new Package("ciulpk bybi", "salut");
                     Console.WriteLine(pack.operation);
                     //sending
                     Console.WriteLine("Sending date!");
-                    NetworkStream stream = client.GetStream();
+                    
                     string message = JsonConvert.SerializeObject(pack);
                     byte[] sendBytes = new byte[1024];
-                    sendBytes = Encoding.UTF8.GetBytes(message);
+                    sendBytes = Encoding.UTF8.GetBytes(message + "\r\0") ; // this
                     stream.Write(sendBytes, 0, sendBytes.Length);
+
                     Console.WriteLine(message);
 
 
                     Console.WriteLine("Date has been sent!");
                     send = false;
-                    
+                    // stream.Close();
+                }
+                for(int i=0;i<5000;i++)
+                {
+                    Console.WriteLine("Yeet" + i);
                 }
             }
 
@@ -73,6 +78,7 @@ namespace TcpClientJava
             //String deserializedMessage = JsonConvert.DeserializeObject<String>(message);
             //    Console.WriteLine(deserializedMessage);
             ////client.Close();
+            ///
             client.GetStream().Close();
                 Console.WriteLine("Client terminated.");
             client.Close(); 

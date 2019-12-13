@@ -16,8 +16,9 @@ namespace TcpClientJava
         public static void Main(string[] args)
         {
             TcpCom salut = new TcpCom("localhost",3344);
-            salut.startClient();
-            salut.SendClient();
+             salut.startClient();
+       
+             salut.SendClient();
          
         }
     }

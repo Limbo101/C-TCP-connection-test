@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\catal\\source\\repos\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj": {}
+    "C:\\Users\\karol\\Desktop\\important stuff\\SEP exams\\SEP 3\\Tier 1 - Client\\C-TCP-connection-test\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj": {}
   },
   "projects": {
-    "C:\\Users\\catal\\source\\repos\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj": {
+    "C:\\Users\\karol\\Desktop\\important stuff\\SEP exams\\SEP 3\\Tier 1 - Client\\C-TCP-connection-test\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\catal\\source\\repos\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj",
+        "projectUniqueName": "C:\\Users\\karol\\Desktop\\important stuff\\SEP exams\\SEP 3\\Tier 1 - Client\\C-TCP-connection-test\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj",
         "projectName": "TcpClientJava",
-        "projectPath": "C:\\Users\\catal\\source\\repos\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj",
-        "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\catal\\source\\repos\\TcpClientJava\\TcpClientJava\\obj\\",
+        "projectPath": "C:\\Users\\karol\\Desktop\\important stuff\\SEP exams\\SEP 3\\Tier 1 - Client\\C-TCP-connection-test\\TcpClientJava\\TcpClientJava\\TcpClientJava.csproj",
+        "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karol\\Desktop\\important stuff\\SEP exams\\SEP 3\\Tier 1 - Client\\C-TCP-connection-test\\TcpClientJava\\TcpClientJava\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
